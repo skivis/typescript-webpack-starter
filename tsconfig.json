@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es6",
+    "module": "es2015",
+    "sourceMap": true,
+    "outDir": "./build",
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "lib": [
+      "dom",
+      "es2015"
+    ]
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "**/dist/*"
+  ]
+}

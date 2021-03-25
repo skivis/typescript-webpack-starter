@@ -1,0 +1,10 @@
+.*
+~*
+node_modules/
+dist/
+*.log
+!.gitignore
+!.eslintrc
+!.editorconfig
+!.phpcs.xml.dist
+!.env.example
